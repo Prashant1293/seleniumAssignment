@@ -31,34 +31,29 @@ class CreateCustomTest extends FlatSpec with TestSetUp {
     driver.findElementByCssSelector("div._1avdGP button:nth-child(1)").click()
 
     driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS)
-
-//    val placeOrder=driver.findElementByCssSelector("a._1QZ6fC")
-//    val mouseHover1 = new Actions(driver)
-//    mouseHover1.moveToElement(placeOrder)
-//    mouseHover1.build().perform()
-//    webdriverwait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("a._1QZ6fC")))
-//    driver.findElementByCssSelector("a._1QZ6fC a._3ZgIXy").click()
-
-
-
-    val your_orders = driver.findElementByCssSelector("a._1AHrFc._2k0gmP")
-
+Thread.sleep(3000)
+    val placeOrder=driver.findElementByCssSelector("._3Ed3Ub ._114Zhd li:nth-child(1)")
     val mouseHover = new Actions(driver)
-    mouseHover.moveToElement(your_orders)
-    mouseHover.build().perform()
+    mouseHover.moveToElement(placeOrder)
+    mouseHover.click().build().perform()
+    Thread.sleep(3000)
+    driver.findElementByCssSelector(".QPOmNK li:nth-child(3) a._3ZgIXy").click()
 
-    webdriverwait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("ul._1u5ANM li:nth-child(2) a._2k0gmP")))
-    driver.findElementByCssSelector("ul._1u5ANM li:nth-child(2) a._2k0gmP").click()
-    //.sleep(5000)
-    driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS)
+    driver.findElementByCssSelector("._3wU53n").click()
+    driver.findElementByCssSelector("._2AkmmA._3Plo8Q._19RW-r").click()
 
+    //    val your_orders = driver.findElementByCssSelector("a._1AHrFc._2k0gmP")
+    //
     //    val mouseHover = new Actions(driver)
     //    mouseHover.moveToElement(your_orders)
     //    mouseHover.build().perform()
-    //    webdriverwait.until(ExpectedConditions.visibilityOfElementLocated(By.id("nav-flyout-yourAccount")))
-    //    driver.findElementByCssSelector("#navbar #nav-flyout-anchor #nav-flyout-yourAccount .nav-template.nav-flyout-content.nav-tpl-itemList #nav-item-signout").click()
-    //    Thread.sleep(5000)
-    driver.close()
+    //
+    //    webdriverwait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("ul._1u5ANM li:nth-child(2) a._2k0gmP")))
+    //    driver.findElementByCssSelector("ul._1u5ANM li:nth-child(2) a._2k0gmP").click()
+    //    thread.sleep(5000)
+    //    driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS)
+
+    /*driver.close()*/
   }
 
   //  "user" should "select a category from the list" in{

@@ -1774,9 +1774,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.13!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#template-resolver;0.1!template-resolver.jar
-[debug] :: resolution report :: resolve 944ms :: artifacts dl 24ms
+[debug] :: resolution report :: resolve 736ms :: artifacts dl 13ms
 [debug] 	report for default#seleniumday1$sbt_2.10;1.0 default produced in /home/prashant/IdeaProjects/SeleniumDay1/target/resolution-cache/reports/default-seleniumday1$sbt_2.10-default.xml
-[debug] 	resolve done (944ms resolve - 24ms download)
+[debug] 	resolve done (736ms resolve - 13ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: default#seleniumday1$sources_2.10;1.0
 [debug] 	confs: [default]
@@ -1786,6 +1786,6 @@
 [debug] == resolving dependencies for default#seleniumday1$sources_2.10;1.0 [default]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] :: resolution report :: resolve 14ms :: artifacts dl 0ms
+[debug] :: resolution report :: resolve 11ms :: artifacts dl 0ms
 [debug] 	report for default#seleniumday1$sources_2.10;1.0 default produced in /home/prashant/IdeaProjects/SeleniumDay1/target/resolution-cache/reports/default-seleniumday1$sources_2.10-default.xml
-[debug] 	resolve done (14ms resolve - 0ms download)
+[debug] 	resolve done (11ms resolve - 0ms download)
