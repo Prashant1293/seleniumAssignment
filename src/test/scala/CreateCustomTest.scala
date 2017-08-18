@@ -40,8 +40,8 @@ Thread.sleep(3000)
     driver.findElementByCssSelector(".QPOmNK li:nth-child(3) a._3ZgIXy").click()
 
     driver.findElementByCssSelector("._3wU53n").click()
-    driver.findElementByCssSelector("._2AkmmA._3Plo8Q._19RW-r").click()
-
+    //driver.findElementByCssSelector("._2AkmmA._3Plo8Q._19RW-r").click()
+    driver.close()
     //    val your_orders = driver.findElementByCssSelector("a._1AHrFc._2k0gmP")
     //
     //    val mouseHover = new Actions(driver)
